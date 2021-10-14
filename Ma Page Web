@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html><head>
+<title>Ma Page Web</title>
+</head>
+<!--*****************************************************************************************************************************************************************************************************************-->
+                                                                        <!--Création et Disposition des "Colonnes et Couleurs de Page WEB"-->
+<!--*****************************************************************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="style.css">
+<style>
+
+
+</style>
+<!--*****************************************************************************************************************************************************************************************************************-->
+                                                                                  <!--Création du Corp de la Page WRB "Center"-->
+<!--*****************************************************************************************************************************************************************************************************************-->
+<body>
+<header>
+  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-server" viewBox="0 0 16 16">
+    <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
+    <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
+    <path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
+  </svg> <h1 align="center"><font size="10" text-shadow= "80px 20px 15px #6F1CFF" color="white">Bonjour, bienvenu(e) sur ma page Web</font></h1>
+    </header>
+<!--Insertion d'un lecteur MP3-->
+<audio controls><embed height="60" type="audio/midi" width="144" src="audio.mp3" volume="60" loop="false" autostart="false" />
+  <source src="/assets_tutorials/media/Loreena_Mckennitt_Snow_56bit.mp3" type="audio/mpeg">
+  <source src="/assets_tutorials/media/Loreena_Mckennitt_Snow_56bit.ogg" type="audio/ogg">
+                Votre navigateur ne supporte pas la balise audio.
+                    </audio>
+<!--Création de la Colonne de Gauche "Boite" MENU-->
+<div class="wrapper">
+  <nav id="navigation" role="navigation">
+<!--Ajout d'un Avatar-->
+  <p1 align="center"><img src= "../Image/Moi.jpg"  width="170" height="210"></img></p1>
+
+      <a href="#">MENU</a>
+      <a href="#">Page Acceuil</a>
+      <a href="#">Information</a>
+      <a href="#">Curriculum Vitae</a>
+      <a href="#">Divers</a>
+        </nav>
+
+   <section class="content">
+   <h2></h2>
+    <p></p>
+<!--Insertion d'une Image-->
+    <p></p>
+    <p></p>
+<!--Construction du corp de la Page-->
+<!--****************************************************************************************************************************************************************************************************************--> 
+<!--                                                                                          <--Zone de Texte-->
+<!--***************************************************************************************************************************************************************************************************************--> 
+<!--création de la barre de "Recherche"-->
+<html>
+<head>
+<title>Bare de Recherche</title>
+  </head>
+<!--Insertiopn de la bare de recherche-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+<input type="Web" class="form-control" size "150" id="Web" placeholder="Rechercher un Document">  
+<button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+    </div>
+      </nav>
+<!--Insertion d'un "Icone Calendrier"-->
+    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-calendar-date-fill" viewBox="0 0 16 16">
+      <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z"/>
+      <path d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z"/>
+        </svg>
+  <p></p>                            
+  <p></p>
+      <input type="email" class="form-control" id="email" placeholder="Barre de Recherche Web">
+      <br/>  
+<!--Insertion d'une "Video"-->
+<p align="center"><object width="450" height="250" data="https://www.youtube.com/embed/tl1AjJuyMXo"></object></p>
+    
+  <P></P>
+  <h1 align="center"><font size="5" color="red"> Politique de Confidentialité!</font></h1>
+  <p align="center"><font size="5" color="red">!ATTENTION!</font></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <div class="container">  
+<!--Insertion du Formulaire de "Connexion"-->
+  <form class="form-horizontal" role="form">  
+  <form style="width:300px">  
+  <div class="form-group">  
+    <label class="control-label col-sm-2" for="email"></label> 
+<!--Insertion du formulaire de connection-->
+  <div class="col-sm-10">  
+  <input type="email" class="form-control" id="email" placeholder="Entrez votre email">  
+    </div>  
+      </div> 
+  <div class="form-group">  
+    <label class="control-label col-sm-2" for="pwd"></label> 
+  <div class="col-sm-10">            
+    <input type="password" class="form-control" id="pwd" placeholder="Entrez le mot de passe">  
+    <br/>
+    <input type="password" class="form-control" id="pwd" placeholder="Confirmer votre mot de passe"> 
+      </div>  
+        </div>  
+      
+    <div class="form-group">          
+        <div class="col-sm-offset-2 col-sm-10">  
+        <button type="submit" class="btn btn-default">Envoyer</button>  
+          </div>  
+            </div>  
+              </form>
+<!--"bouton onclick",redirection vers un site choisis-->
+<div class="colorlibcopy-agile">
+   <h1 align="center"> Veuillez consulter avant de vous connecter...<a
+      href="https://www.checkpoint.com/fr/solutions/gdpr//" target="_blank">checkpoint.com</a></h1>
+<!--Création des "Boutons" d'acceptation / refus de Confidentialité-->
+      <p align="center"><button type="button" id="Accepter"
+      class="btn btn-primary btn-sm">OUI</button>
+         </p>
+            </div>
+  <p align="center"><button type="button" id="Refuser" 
+  class="btn btn-primary btn-sm">NON</button>
+  <html>
+<!--Présentation du Dev-->
+      <p align="center" style= "font-size: 15px" > Szmulikowski Vincent</p>
+      <p align="center" style= "font-size: 15px" >(Développeur Web)</p> <!--<p style="font-size:18px">Paragraph 1</p>-->
+  <P align="center" style= "font-size: 15px"> Java Script / Angular / WCF / ASP /C# </P> <!--<p style="font-size:18px">Paragraph 1</p>-->
+    </P>
+      </BODY>
+         </div>
+  <p></p>
+  <p></p>
+  <p align="center"> <input type="hidden" name="MAX_FILE_SIZE" value="100"/> <input size="80" style="height:20px;" name="file" type="file" /> <!--Insertion d'un "bouton" Envoyer un Fichier-->
+        <p></p>
+<!--Integration d'une fenetre "m'envoyer un message"-->
+    <p align="center"></p><form method="post" action="mailto:votreemail@email.com">
+    <p align="center"><textarea rows="5" cols="100"   wrap="physique" name="commentaires">Ecrivez un commentaire</textarea><br />
+    <p align="center"><input  type="submit" size="80" value="M'envoyer un Email" />
+      </form>
+  <p></p>
+  <p></p>
+  <head>
+<!--creation du "bouton" de redirection vers googel-->
+<div class="colorlibcopy-agile">
+  <h1 align="center"><a
+      href= "https://www.linkedin.com/in/vincent-szmulikowski-122881151/?originalSubdomain=be///" target="_blank">linkedin</a>
+        </h1>
+           </div>      
+  <!--création du "bouton" submite de redirection vers lynkedin-->
+  <div class="colorlibcopy-agile">
+     <h1 align="center"><a
+         href= "https://github.com/Vincent1307///" target="_blank">githup.com</a>
+           </h1>
+              </div>      
+        </div>
+           </html>
+  &emsp;
+  <p></p>
+
+  <!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Bootstrap Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+    
+</head>  
+<body>  
+  
+  
+</div>  
+ 
+  </section>
+<!--*****************************************************************************************************************************************************************************************************************-->
+                                                                            <!--Disposition de la Page WEB "Baniére du Bas"-->
+<!--*****************************************************************************************************************************************************************************************************************-->
+</div> 
+<!--Boite du bas de Page-->
+  <footer><p>© 2021 All rights reserved | Design by</p></footer>
+    </body>
+      </html>
